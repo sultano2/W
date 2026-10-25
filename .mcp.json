@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tripo3d": {
+      "command": "python3",
+      "args": ["tripo3d_tool.py", "serve"],
+      "env": {
+        "TRIPO_API_KEY": "${TRIPO_API_KEY}"
+      }
+    }
+  }
+}
